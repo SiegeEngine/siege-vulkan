@@ -1,0 +1,11 @@
+[package]
+name = "siege-vulkan"
+version = "0.1.0-unstable"
+authors = ["Mike Dilger <mike@optcomp.nz>"]
+description = "Siege Game Engine Vulkan Layer"
+repository = "https://github.com/SiegeEngine/siege-vulkan"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+ash = "0.24"
