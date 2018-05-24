@@ -25,4 +25,8 @@ impl CStringSet {
         ss.pp = ss.ptrs.as_ptr();
         ss
     }
+
+    pub fn len(&self) -> usize {
+        self.cstrings.len()
+    }
 }
